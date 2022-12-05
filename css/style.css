@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(241, 218, 185);
+}
+
+h1{
+    text-align: center;
+    color: rgb(102, 57, 57);
+}
+
+.contianer{
+    padding: 10px ;
+    text-align: center;
+    color: rgb(117, 27, 27);
+    font-size : 30px;
+    font-weight: 300;
+    height: 600px;
+    width: 800px;
+    background-color: rgba(247, 163, 107, 0.544);
+    margin : auto;
+    position: relative;
+    border: 5px solid rgb(65, 27, 0);
+    box-shadow: 3px 0px 6px #c6a8a8 
+}
+
+.buttumaligned {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+button{
+    margin : 5px;
+}
+
+img {
+    height: 450px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.wrong{
+    background-color: rgb(227, 66, 66);
+}
+
+.restart{
+    display: none;
+}
